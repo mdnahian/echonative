@@ -1,0 +1,16 @@
+add image called background
+insert an image of princeton in background
+resize width of background to eighty percent
+update background change margin top to 20%
+
+
+add input called first
+set first value email
+add input called second
+set second value password
+
+
+add button called login
+set button login  value login
+update button login change color to black
+update button login change margin top to 30%

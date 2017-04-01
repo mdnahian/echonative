@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "component",
+          "type": "LIST_OF_COMPONENTS"
+        },
+        {
+          "name": "name",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "AddComponentIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "text",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "SetContentIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "attribute",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "name",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "value",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "ResizeComponentIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "attribute",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "value",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "UpdateComponentIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "DestroyComponentIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

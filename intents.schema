@@ -1,0 +1,10 @@
+AddComponentIntent add {component} called {signup button | name}
+AddComponentIntent add a {component} and call it {email label | name}
+
+SetContentIntent set {header | name} value {hello world | text}
+SetContentIntent set {first | name} value {name | text}
+
+SetContentIntent insert {this is a sample of text | text} in {instructions text | name}
+ResizeComponentIntent resize {width |  attribute} of {background image | name} to {one hundered fifty |  value}
+UpdateComponentIntent update {login button | name} change {background color | attribute} to {red |  value}
+DestroyComponentIntent destroy {component login button | name}
