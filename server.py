@@ -154,6 +154,7 @@ def updateComponent(name, attribute, value):
 
 		name = mapToCorrect(name)
 		value = mapToCorrect(value)
+		attribute = attribute.replace('imput', 'input').replace('patting', 'padding').replace('with', 'width').replace('marginTalk', 'marginTop').replace('flexStart', 'flex-start').replace('flexEnd', 'flex-end')
 
 		print name + ' ' + attribute + ' ' + value
 
