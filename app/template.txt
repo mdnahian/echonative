@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+
+export default class Test extends Component {
+  render() {
+    return (||);
+  }
+}
+
+const styles = StyleSheet.create(<>);
+
+AppRegistry.registerComponent('test', () => test);

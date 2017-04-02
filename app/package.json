@@ -1,0 +1,29 @@
+{
+  "name": "alexanative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutability-helper": "^2.1.2",
+    "lodash": "^4.17.4",
+    "native-base": "^2.1.0",
+    "react": "15.4.2",
+    "react-native": "0.42.3",
+    "react-native-navbar": "^1.7.1",
+    "react-native-platform-stylesheet": "0.0.6",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
